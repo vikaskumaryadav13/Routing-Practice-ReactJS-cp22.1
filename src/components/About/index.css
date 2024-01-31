@@ -1,0 +1,37 @@
+/* Write your CSS code here */
+.about-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 75vh;
+}
+
+.about-img {
+  width: 155px;
+}
+
+.about-heading {
+  font-family: 'Roboto';
+  font-weight: 550;
+  font-size: 25px;
+  color: #6d396b;
+}
+
+@media (min-width: 576px) {
+  .about-heading {
+    font-size: 50px;
+  }
+}
+
+.about-paragraph {
+  font-family: 'Roboto';
+  font-size: 26px;
+  text-align: center;
+  color: #555555;
+}
+@media (max-width: 575px) {
+  .about-paragraph {
+    font-size: 12px;
+  }
+}
